@@ -79,6 +79,8 @@ public class WeatherPreferences extends PreferenceFragment implements
 
         mUseMetric = (CheckBoxPreference) findPreference(Constants.WEATHER_USE_METRIC);
 
+        mUseMetric = (CheckBoxPreference) findPreference(Constants.WEATHER_USE_METRIC);
+
         // Show a warning if location manager is disabled and there is no custom location set
         if (!Settings.Secure.isLocationProviderEnabled(mResolver,
                 LocationManager.NETWORK_PROVIDER)
