@@ -80,6 +80,7 @@
     <string name="weather_tap_to_refresh">Tik om te vernieuwen</string>
     <string name="weather_refreshing">Vernieuwen\u2026</string>
     <string name="weather_last_sync_just_now">Zojuist</string>
+    <string name="weather_cannot_reach_provider">Kan %s niet bereiken</string>
     <string name="weather_refresh_manual">Handmatig</string>
     <string name="weather_refresh_30min">0,5 uur</string>
     <string name="weather_refresh_60min">1 uur</string>
@@ -101,7 +102,7 @@
     <string name="clock_am_pm_title">AM/PM weergeven</string>
     <string name="weather_enabled">Ingeschakeld</string>
     <string name="weather_enable">Weer tonen</string>
-    <string name="weather_source">Yahoo! Weer</string>
+    <string name="weather_source_yahoo">Yahoo! Weer</string>
     <string name="weather_use_custom_location">Aangepaste locatie</string>
     <string name="weather_geolocated">Locatie bepalen door netwerk</string>
     <string name="weather_custom_location_dialog_title">Locatie invoeren</string>
@@ -164,4 +165,9 @@
     <string name="holo_orange_light">Lichtoranje</string>
     <string name="holo_orange_dark">Donkeroranje</string>
     <string name="holo_blue_bright">Helderblauw</string>
+    <string name="weather_icon_set_title">Pictogrammenpakket</string>
+    <string name="weather_icons_standard">Gekleurd</string>
+    <string name="weather_icons_monochrome">Zwart-wit</string>
+    <string name="icon_set_selection_get_more">Meer\u2026</string>
+
 </resources>

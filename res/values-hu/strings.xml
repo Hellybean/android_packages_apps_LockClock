@@ -74,6 +74,10 @@
     <!-- Forecast unavailable -->
     <string name="weather_3200"></string>
 
+    <!-- Weather - Speed units -->
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">mph</string>
+
     <!-- Weather - Wind directions -->
     <string name="weather_N">É</string>
     <string name="weather_NE">ÉK</string>
@@ -87,8 +91,9 @@
     <!-- Weather - error messages -->
     <string name="weather_no_data">Nincs adat</string>
     <string name="weather_tap_to_refresh">Érintse meg a frissítéshez</string>
-    <string name="weather_refreshing">Frissítés…</string>
+    <string name="weather_refreshing">Frissítés\u2026</string>
     <string name="weather_last_sync_just_now">Épp most</string>
+    <string name="weather_cannot_reach_provider">%s nem elérhető</string>
 
     <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">Kézi</string>
@@ -120,7 +125,9 @@
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Engedélyezve</string>
     <string name="weather_enable">Időjárás megjelenítése</string>
-    <string name="weather_source">Yahoo! időjárás</string>
+    <string name="weather_source_title">Időjárás forrása</string>
+    <string name="weather_source_yahoo">Yahoo! Időjárás</string>
+    <string name="weather_source_openweathermap">OpenWeatherMap</string>
     <string name="weather_use_custom_location">Egyéni hely használata</string>
     <string name="weather_geolocated">Helyzetmeghatározás</string>
     <string name="weather_custom_location_dialog_title">Hely megadása</string>
@@ -194,5 +201,10 @@
     <string name="holo_orange_dark">Sötét narancs</string>
     <string name="holo_blue_bright">Sötétkék</string>
 
-
+    <!-- Weather icon sets -->
+    <string name="weather_icon_set_title">Ikon beállítások</string>
+    <string name="weather_icons_standard">Színes</string>
+    <string name="weather_icons_monochrome">Fekete-fehér</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="icon_set_selection_get_more">Továbbiak beszerzése\u2026</string>
 </resources>

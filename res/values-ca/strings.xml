@@ -80,6 +80,7 @@
     <string name="weather_tap_to_refresh">Pica per actualitzar</string>
     <string name="weather_refreshing">Actualitzant</string>
     <string name="weather_last_sync_just_now">Ara</string>
+    <string name="weather_cannot_reach_provider">No es pot contactar amb %s</string>
     <string name="weather_refresh_manual">Manual</string>
     <string name="weather_refresh_30min">30 minuts</string>
     <string name="weather_refresh_60min">60 minuts</string>
@@ -101,7 +102,7 @@
     <string name="clock_am_pm_title">Mostra l\'indicador AM/PM</string>
     <string name="weather_enabled">Activat</string>
     <string name="weather_enable">Mostra el temps</string>
-    <string name="weather_source">Temps de Yahoo!</string>
+    <string name="weather_source_yahoo">Temps de Yahoo!</string>
     <string name="weather_use_custom_location">Utilitza una ubic. personalitzada</string>
     <string name="weather_geolocated">Geolocalitzat utilitzant la xarxa</string>
     <string name="weather_custom_location_dialog_title">Introdueix ubicació</string>
