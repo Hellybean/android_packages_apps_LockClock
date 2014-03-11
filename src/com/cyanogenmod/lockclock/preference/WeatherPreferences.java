@@ -81,7 +81,11 @@ public class WeatherPreferences extends PreferenceFragment implements
         mUseMetric = (CheckBoxPreference) findPreference(Constants.WEATHER_USE_METRIC);
         mUseCustomlocation = (CheckBoxPreference) findPreference(Constants.WEATHER_USE_CUSTOM_LOCATION);
 
-        mUseMetric = (CheckBoxPreference) findPreference(Constants.WEATHER_USE_METRIC);
+        // At first placement/start default the use of Metric units based on locale
+        // If we had a previously set value already, this will just reset the same value
+        Boolean defValue = Preferences.useMetricUnits(mContext);
+        Preferences.setUseMetricUnits(mContext, defValue);
+        mUseMetric.setChecked(defValue);
 
         // Show a warning if location manager is disabled and there is no custom location set
         LocationManager lm = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
@@ -93,6 +97,7 @@ public class WeatherPreferences extends PreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
+
         getPreferenceManager().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
         updateLocationSummary();
         updateFontColorsSummary();
